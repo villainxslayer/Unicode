@@ -1,0 +1,39 @@
+{
+  "name": "discord-all-in-one-bot",
+  "version": "1.0.0",
+  "description": "Self-hosted all-in-one Discord bot: moderation, anti-nuke, auto-mod, levels, economy, tickets, giveaways, reaction roles, AFK, snipe, music, welcomer, sticky messages",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "moderation",
+    "antinuke",
+    "economy",
+    "levels",
+    "tickets",
+    "music"
+  ],
+  "author": "Self-Hosted",
+  "license": "MIT",
+  "dependencies": {
+    "@discordjs/opus": "^0.9.0",
+    "@discordjs/voice": "^0.17.0",
+    "@distube/spotify": "^2.0.2",
+    "@distube/yt-dlp": "^2.0.1",
+    "better-sqlite3": "^11.3.0",
+    "discord.js": "^14.16.3",
+    "distube": "^5.0.2",
+    "dotenv": "^16.4.5",
+    "ffmpeg-static": "^5.2.0",
+    "ms": "^2.1.3",
+    "sodium-native": "^4.1.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
